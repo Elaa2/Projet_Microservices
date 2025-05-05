@@ -1,0 +1,21 @@
+#spring.application.name=GatewayAPI
+
+server:
+  port: 8888
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: avion-service
+          uri: http://localhost:9091
+          predicates:
+            - Path=/avion/**
+
+        - id: aeroport-service
+          uri: http://localhost:8083
+          predicates:
+            - Path=/api/aeroports/**
+
