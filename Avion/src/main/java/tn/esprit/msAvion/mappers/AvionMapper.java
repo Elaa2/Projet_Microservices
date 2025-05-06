@@ -1,9 +1,9 @@
-package tn.esprit.ms.mappers;
+package tn.esprit.msAvion.mappers;
 
 
 import org.mapstruct.Mapper;
-import tn.esprit.ms.DAO.Entities.Avion;
-import tn.esprit.ms.dto.AvionDto;
+import tn.esprit.msAvion.DAO.Entities.Avion;
+import tn.esprit.msAvion.dto.AvionDto;
 
 @Mapper(componentModel = "spring")
 public interface AvionMapper {

@@ -1,4 +1,4 @@
-package tn.esprit.ms.DAO.Entities;
+package tn.esprit.msAvion.DAO.Entities;
 
 
 import lombok.*;

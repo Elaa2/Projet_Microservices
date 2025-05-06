@@ -1,10 +1,10 @@
-package tn.esprit.ms;
+package tn.esprit.eurekaserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsApplicationTests {
+class EurekaServerApplicationTests {
 
     @Test
     void contextLoads() {

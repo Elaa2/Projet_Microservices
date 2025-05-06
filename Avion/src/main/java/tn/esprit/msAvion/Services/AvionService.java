@@ -1,10 +1,10 @@
-package tn.esprit.ms.Services;
+package tn.esprit.msAvion.Services;
 
 import lombok.RequiredArgsConstructor;
-import tn.esprit.ms.DAO.Entities.Avion;
-import tn.esprit.ms.DAO.Repositories.AvionRepository;
-import tn.esprit.ms.dto.AvionDto;
-import tn.esprit.ms.mappers.AvionMapper;
+import tn.esprit.msAvion.DAO.Entities.Avion;
+import tn.esprit.msAvion.DAO.Repositories.AvionRepository;
+import tn.esprit.msAvion.dto.AvionDto;
+import tn.esprit.msAvion.mappers.AvionMapper;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

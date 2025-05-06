@@ -1,4 +1,4 @@
-package tn.esprit.ms.dto;
+package tn.esprit.msAvion.dto;
 
 import lombok.Data;
 import java.time.LocalDateTime;

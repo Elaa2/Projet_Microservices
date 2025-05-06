@@ -1,11 +1,10 @@
-package tn.esprit.ms.Controllers;
+package tn.esprit.msAvion.Controllers;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import tn.esprit.ms.DAO.Entities.Avion;
-import tn.esprit.ms.Services.AvionService;
-import tn.esprit.ms.Services.IAvionService;
-import tn.esprit.ms.dto.AvionDto;
+import tn.esprit.msAvion.DAO.Entities.Avion;
+import tn.esprit.msAvion.Services.IAvionService;
+import tn.esprit.msAvion.dto.AvionDto;
 
 import java.util.List;
 
